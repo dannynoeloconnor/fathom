@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" nextobjectid="71">
+ <properties>
+  <property name="BulletCount" value="25"/>
+  <property name="Summary" value="This is a test summary that should output before the start of the level to describe to the user what they will have to do to complete the level."/>
+ </properties>
+ <tileset firstgid="1" name="blocks" tilewidth="32" tileheight="32">
+  <image source="blocks.png" width="96" height="32"/>
+ </tileset>
+ <layer name="red" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQAkwMGWi+x+knxLzY1hPSSIk8OoFZYkRrnA+1meuilJM+gYwCMqABP
+  </data>
+ </layer>
+ <layer name="green" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtABMA+2AQQhGwwQ7AAAKDAAF
+  </data>
+ </layer>
+ <layer name="blue" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+ <objectgroup name="crystals">
+  <object id="54" x="111" y="125"/>
+ </objectgroup>
+ <objectgroup name="seaweed">
+  <object id="69" x="431" y="405"/>
+ </objectgroup>
+ <objectgroup name="spikes" opacity="0.9">
+  <object id="61" x="248" y="426">
+   <ellipse/>
+  </object>
+  <object id="62" x="197" y="422">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="pads">
+  <object id="70" x="394" y="116" width="40" height="11"/>
+ </objectgroup>
+</map>

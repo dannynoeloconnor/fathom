@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" nextobjectid="11">
+ <tileset firstgid="1" name="blocks" tilewidth="32" tileheight="32">
+  <image source="blocks.png" width="96" height="32"/>
+ </tileset>
+ <layer name="red" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQAYwPEyo/qJRyepOhFV4dPLyFAK72DIZwp1YuPTw4GAKkUAGA=
+  </data>
+ </layer>
+ <objectgroup name="pads">
+  <object id="1" x="337" y="408" width="59" height="6"/>
+ </objectgroup>
+ <objectgroup name="crystals">
+  <object id="2" x="332" y="211">
+   <ellipse/>
+  </object>
+  <object id="3" x="312" y="182">
+   <ellipse/>
+  </object>
+  <object id="4" x="300" y="158">
+   <ellipse/>
+  </object>
+  <object id="5" x="297" y="177">
+   <ellipse/>
+  </object>
+  <object id="6" x="45" y="82">
+   <ellipse/>
+  </object>
+  <object id="7" x="40" y="54">
+   <ellipse/>
+  </object>
+  <object id="8" x="55" y="60">
+   <ellipse/>
+  </object>
+  <object id="9" x="75" y="46">
+   <ellipse/>
+  </object>
+  <object id="10" x="431" y="441">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <layer name="green" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+ <layer name="blue" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+</map>
